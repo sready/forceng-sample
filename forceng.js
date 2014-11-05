@@ -20,7 +20,11 @@ angular.module('forceng', [])
             oauth,
 
         // Only required when using REST APIs in an app hosted on your own server to avoid cross domain policy issues
+<<<<<<< HEAD
             proxyURL = "https://samforceng.herokuapp.com/oauthCallback.html", //"http://localhost:8200",
+=======
+            proxyURL = "https://samforceng.herokuapp.com/oauthcallback.html", //http://localhost:8200",
+>>>>>>> ac875e61ca1b81051db802a8ebff4973e718cd82
 
         // By default we store fbtoken in memory. This can be overridden in init()
             tokenStore = {},
