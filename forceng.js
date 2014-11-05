@@ -23,7 +23,7 @@ angular.module('forceng', [])
             proxyURL = "https://samforceng.herokuapp.com/oauthcallback.html", //"http://localhost:8200",
 
         // By default we store fbtoken in memory. This can be overridden in init()
-            tokenStore = {},
+            tokenStore = {}, 
 
         // if page URL is http://localhost:3000/myapp/index.html, context is /myapp
             context = window.location.pathname.substring(0, window.location.pathname.lastIndexOf("/")),
