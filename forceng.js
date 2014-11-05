@@ -11,7 +11,7 @@ angular.module('forceng', [])
         var loginURL = 'https://login.salesforce.com',
 
         // The Connected App client Id
-            appId = '3MVG9fMtCkV6eLheIEZplMqWfnGlf3Y.BcWdOf1qytXo9zxgbsrUbS.ExHTgUPJeb3jZeT8NYhc.hMyznKU92',
+            appId = '3MVG9A2kN3Bn17htrGcJ8DnRaOl8WTI7pvuhUty5FMXjedLdIMITLDTVW3uh2ZsYUPWLkKBU.Pi5ZJpRRdb9m',
 
         // The force.com API version to use. Default can be overriden in login()
             apiVersion = 'v32.0',
@@ -20,7 +20,7 @@ angular.module('forceng', [])
             oauth,
 
         // Only required when using REST APIs in an app hosted on your own server to avoid cross domain policy issues
-            proxyURL = "http://localhost:8200",
+            proxyURL = "https://samforceng.herokuapp.com/oauthcallback.html", //http://localhost:8200",
 
         // By default we store fbtoken in memory. This can be overridden in init()
             tokenStore = {},
