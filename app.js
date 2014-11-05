@@ -2,6 +2,7 @@ angular.module('demoApp', ["controllers", "forceng"])
 
     .run(function ($window, force) {
 
+<<<<<<< HEAD
         force.init({
             // Required: clientId of Salesforce Connected App
             appId: '3MVG9A2kN3Bn17htrGcJ8DnRaOl8WTI7pvuhUty5FMXjedLdIMITLDTVW3uh2ZsYUPWLkKBU.Pi5ZJpRRdb9m',
@@ -15,5 +16,16 @@ angular.module('demoApp', ["controllers", "forceng"])
             // proxyURL: 'http://localhost:3000' /* Your own local proxy for development */
 
         });
+=======
+// ForceNG is built to work out of the box with sensible defaults.
+// Uncomment the force.init() function call below to provide specific runtime parameters
+//        force.init({
+//            appId: '3MVG9fMtCkV6eLheIEZplMqWfnGlf3Y.BcWdOf1qytXo9zxgbsrUbS.ExHTgUPJeb3jZeT8NYhc.hMyznKU92',
+//            apiVersion: 'v32.0',
+//            loginUrl: 'https://login.salesforce.com',
+//            oauthRedirectURL: 'http://localhost:8200/oauthcallback.html',
+//            proxyURL: 'http://localhost:8200'
+//        });
+>>>>>>> FETCH_HEAD
 
     });
